@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+body {
+    background-color: gainsboro;
+}
+
+.fontnav {
+    font-family: 'Special Elite', cursive;
+}
+
+.mijnfooter {
+    color: white;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 5px solid lightgrey;
+}
+
+.pcenter {
+    text-align: center;
+}
+
+.nav-item {
+    text-align: end;
+}
+
+.fotoindex {
+    float: right;
+}
+
+.imgindex {
+    border-radius: 50%;
+    width: 130px;
+    padding: 10px;
+}
+
+.imgcontact {
+    border-radius: 25%;
+    max-width: 100%;
+    height: auto;
+}
+
+.linkzwart {
+    color: black;
+    text-decoration: none;
+}
+
+.linkzwart:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.mijncontainer {
+    background-color: rgb(168, 233, 255);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    color: black;
+}
+
+.carousel.resize {
+    width: 400px;
+    height: 270px;
+    margin: auto;
+}

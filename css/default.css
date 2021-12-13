@@ -59,7 +59,8 @@ body {
 }
 
 .carousel.resize {
-    width: 400px;
+    width: auto;
+    max-width: 400px;
     height: 270px;
     margin: auto;
 }
@@ -86,4 +87,8 @@ body {
     border-radius: 50%;
     width: 100%;
     padding: 0;
+}
+
+.scroll-h {
+    overflow-x: auto;
 }
